@@ -1,0 +1,75 @@
+services:
+
+  # 1. POSTGRESQL DATABASE (Official Image - Pulled from Docker Hub)
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres
+    restart: always
+    environment:
+      # Database connection variables used by the NestJS Backend
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: L
+      POSTGRES_DB: nextjs-v1-db
+      PGPORT: 5432
+    
+    ports:
+      - "5432:5432" 
+    
+  
+
+
+    networks:
+      - iot_network 
+
+  # 2. NESTJS BACKEND API (Custom Image)
+  backend:
+    image: jobmathenge/iot-nestjs-backend:latest 
+    container_name: iot_backend
+    restart: always
+    ports:
+      - "3001:3001" 
+    environment:
+      # CRITICAL: DATABASE_HOST is set to the service name 'postgres'
+      DATABASE_HOST: postgres
+      DATABASE_USER: user
+      DATABASE_PASSWORD: L
+      DATABASE_NAME: nextjs-v1-db
+      
+      MQTT_URL: mqtts://5e86dc6e1d6d4388a5f1845a946c07b8.s1.eu.hivemq.cloud:8883
+      MQTT_USERNAME: hivemq.webclient.1765124168226
+      MQTT_PASSWORD: w8QcE2GF!S$5h3xf#%Hg
+      
+      NODE_ENV: production
+      JWT_SECRET: your_production_jwt_secret 
+      
+
+    networks:
+      - iot_network
+      
+
+  # 3. NEXT.JS FRONTEND UI (Custom Image)
+  frontend:
+    image: jobmathenge/iot-nextjs-frontend:latest
+    container_name: iot_frontend
+    restart: always
+    ports:
+      - "3000:3000" 
+    environment:
+      NODE_ENV: production
+      NEXT_PUBLIC_API_URL: http://backend:3001 
+      
+    depends_on:
+      - backend 
+    networks:
+      - iot_network
+
+
+# CRITICAL FIX: Define the volume used by the postgres service
+volumes:
+  next-js-db-v2:
+    driver: local
+
+# Define the internal network for containers to communicate
+networks:
+  iot_network:
+    driver: bridge
