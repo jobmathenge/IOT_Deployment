@@ -1,4 +1,14 @@
-Watch Intro Video of The same: https://youtu.be/9ET5W4vGgNI 
+
+# Quick Links 
+Intro Video of Solution:   
+ 
+     https://youtu.be/9ET5W4vGgNI
+
+Docker Images pull/run :   
+
+     https://hub.docker.com/r/jobmathenge/iot-nextjs-frontend
+
+     https://hub.docker.com/r/jobmathenge/iot-nestjs-backend
 
 # System Architecture and Data Flow Document
 
