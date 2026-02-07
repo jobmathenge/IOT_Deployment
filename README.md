@@ -23,7 +23,7 @@ Docker Images pull/run :
 ---
 
 
-![Dayliff IOT Telemetry Platform Architecture](https://raw.githubusercontent.com/jobmathenge/test-markdown/main/Dayliff%20IOT%20Telemetry%20plaform.png)
+![AEON4 IOT Telemetry Platform Architecture](https://raw.githubusercontent.com/jobmathenge/test-markdown/main/AEON4%20IOT%20Telemetry%20plaform.png)
 
 ## Alarm System Testing Matrix (Table Summary)
 
