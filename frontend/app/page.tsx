@@ -31,7 +31,7 @@ export default function Page() {
         <Logo />        
         {/* Text and Link */}
         <p className={`${lusitana.className} text-xl text-white md:text-3xl md:leading-normal`}>
-          <strong>Welcome to Dayliff Utilities Monitoring System.</strong> Monitor your systems in real-time.
+          <strong>Welcome to AEON4.0 Utilities Monitoring System.</strong> Monitor your systems in real-time.
         </p>
         
         <Link
