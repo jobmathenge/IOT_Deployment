@@ -23,7 +23,7 @@ Docker Images pull/run :
 ---
 
 
-![AEON4 IOT Telemetry Platform Architecture](https://raw.githubusercontent.com/jobmathenge/test-markdown/main/AEON4%20IOT%20Telemetry%20plaform.png)
+![AEON4 IOT Telemetry Platform Architecture]((https://github.com/jobmathenge/IOT_Deployment/blob/master/AEON4%20IOT%20Telemetry%20plaform.png))
 
 ## Alarm System Testing Matrix (Table Summary)
 
