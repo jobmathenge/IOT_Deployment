@@ -1,8 +1,6 @@
 
 # Quick Links 
-Intro Video of Solution:   
- 
-     https://youtu.be/9ET5W4vGgNI
+
 
 Docker Images pull/run :   
 
@@ -23,7 +21,6 @@ Docker Images pull/run :
 ---
 
 
-![AEON4 IOT Telemetry Platform Architecture]((https://github.com/jobmathenge/IOT_Deployment/blob/master/AEON4%20IOT%20Telemetry%20plaform.png))
 
 ## Alarm System Testing Matrix (Table Summary)
 
