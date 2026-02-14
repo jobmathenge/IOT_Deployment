@@ -56,7 +56,7 @@ function getLogoBase64(filename: string): string {
     }
 }
 
-const DAVIS_SHIRT_LOGO_BASE64 = getLogoBase64('dayliff.png'); 
+const AEON4_LOGO_BASE64 = getLogoBase64('AEON4.png'); 
 
 
 
@@ -195,7 +195,7 @@ export class ReportService {
       return {
           columns: [
               { 
-                  image: DAVIS_SHIRT_LOGO_BASE64, 
+                  image: AEON4_LOGO_BASE64, 
                   width: 120, 
                   alignment: 'left' as const, 
                   margin: [20, 20, 20, 20]
