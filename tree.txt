@@ -1,0 +1,126 @@
+.
+├── AEON4 IOT Telemetry plaform.png
+├── backend
+│   ├── Dockerfile
+│   ├── eslint.config.mjs
+│   ├── nest-cli.json
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── pnpm-lock.yaml
+│   ├── README.md
+│   ├── src
+│   │   ├── alerts
+│   │   │   ├── alerts.controller.spec.ts
+│   │   │   ├── alerts.controller.ts
+│   │   │   ├── alerts.module.ts
+│   │   │   ├── alerts.service.spec.ts
+│   │   │   ├── alerts.service.ts
+│   │   │   └── entities
+│   │   │       └── alert.entity.ts
+│   │   ├── app.controller.spec.ts
+│   │   ├── app.controller.ts
+│   │   ├── app.module.ts
+│   │   ├── app.service.ts
+│   │   ├── assets
+│   │   │   └── logos
+│   │   │       └── AEON4.png
+│   │   ├── auth
+│   │   │   ├── auth.controller.ts
+│   │   │   ├── auth.module.ts
+│   │   │   ├── auth.service.ts
+│   │   │   ├── jwt-auth.guard.ts
+│   │   │   ├── jwt.strategy.ts
+│   │   │   └── roles.guard.ts
+│   │   ├── common
+│   │   │   ├── roles.decorator.ts
+│   │   │   └── roles.enum.ts
+│   │   ├── data
+│   │   │   ├── data.controller.spec.ts
+│   │   │   ├── data.controller.ts
+│   │   │   ├── data.gateway.ts
+│   │   │   ├── data.module.ts
+│   │   │   ├── data.service.spec.ts
+│   │   │   ├── data.service.ts
+│   │   │   ├── entities
+│   │   │   │   └── sensor-reading.entity.ts
+│   │   │   └── interfaces
+│   │   │       └── sensor-reading.interface.ts
+│   │   ├── main.ts
+│   │   ├── mqtt
+│   │   │   ├── mqtt.module.ts
+│   │   │   ├── mqtt.service.spec.ts
+│   │   │   └── mqtt.service.ts
+│   │   ├── report
+│   │   │   ├── report.controller.spec.ts
+│   │   │   ├── report.controller.ts
+│   │   │   ├── report.module.ts
+│   │   │   ├── report.service.spec.ts
+│   │   │   └── report.service.ts
+│   │   └── users
+│   │       ├── user.entity.ts
+│   │       ├── users.module.ts
+│   │       └── users.service.ts
+│   ├── test
+│   │   ├── app.e2e-spec.ts
+│   │   └── jest-e2e.json
+│   ├── tree.txt
+│   ├── tsconfig.build.json
+│   └── tsconfig.json
+├── docker-compose v2.yaml
+├── frontend
+│   ├── app
+│   │   ├── dashboard
+│   │   │   ├── layout.tsx
+│   │   │   ├── (overview)
+│   │   │   │   └── page.tsx
+│   │   │   ├── Reports
+│   │   │   │   └── page.tsx
+│   │   │   └── Trends
+│   │   │       └── page.tsx
+│   │   ├── Dockerfile
+│   │   ├── layout.tsx
+│   │   ├── lib
+│   │   │   ├── actions.ts
+│   │   │   ├── api-fetcher.ts
+│   │   │   ├── auth-client.ts
+│   │   │   ├── auth-role-checker.ts
+│   │   │   └── definitions.ts
+│   │   ├── login
+│   │   │   └── page.tsx
+│   │   ├── page.tsx
+│   │   ├── query
+│   │   │   └── route.ts
+│   │   └── ui
+│   │       ├── alerts
+│   │       │   ├── AlertBell.tsx
+│   │       │   └── AlertTablePopup.tsx
+│   │       ├── button.tsx
+│   │       ├── dashboard
+│   │       │   ├── data-chart.tsx
+│   │       │   ├── logo.tsx
+│   │       │   ├── nav-links.tsx
+│   │       │   ├── sidenav.tsx
+│   │       │   └── status-tile.tsx
+│   │       ├── fonts.ts
+│   │       ├── global.css
+│   │       └── login-form.tsx
+│   ├── Dockerfile
+│   ├── next.config.ts
+│   ├── next-env.d.ts
+│   ├── package.json
+│   ├── pnpm-lock.yaml
+│   ├── postcss.config.js
+│   ├── public
+│   │   ├── AEON4.png
+│   │   ├── banner_mobile.png
+│   │   ├── banner.png
+│   │   └── favicon.ico
+│   ├── README.md
+│   ├── tailwind.config.ts
+│   ├── tree.txt
+│   └── tsconfig.json
+├── README.md
+├── Snips
+└── tree.txt
+
+30 directories, 94 files
