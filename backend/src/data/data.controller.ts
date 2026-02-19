@@ -1,5 +1,13 @@
 // src/data/data.controller.ts
 
+/**
+ * Copyright 2026 Job Mathenge
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+
 import { Controller, Get, Query } from '@nestjs/common'; 
 import { DataService, FlatLatestResponse, HistoryResponse } from './data.service';
 

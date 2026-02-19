@@ -1,5 +1,13 @@
 // frontend/app/lib/auth-role-checker.ts
 
+/**
+ * Copyright 2026 Job Mathenge
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+
 // Define the expected role enumeration 
 export enum Role {
     User = 'User',

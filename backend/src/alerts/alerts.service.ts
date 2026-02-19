@@ -1,5 +1,13 @@
 // backend/src/alerts/alerts.service.ts
 
+/**
+ * Copyright 2026 Job Mathenge
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+
 import { Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';

@@ -1,4 +1,7 @@
 
+## License
+This project is licensed under the Apache 2.0 License – see the LICENSE file for details.
+
 ![AEON4.0 IoT Telemetry Platform](https://raw.githubusercontent.com/jobmathenge/IOT_Deployment/master/AEON4%20IOT%20Telemetry%20plaform.png)
 
 # Quick Links 

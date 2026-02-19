@@ -1,5 +1,13 @@
 // backend/src/alerts/alerts.controller.ts
 
+/**
+ * Copyright 2026 Job Mathenge
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+
 import * as common from '@nestjs/common'; 
 import { AlertsService, Alert } from './alerts.service'; 
 @common.Controller('alerts')

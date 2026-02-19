@@ -1,5 +1,13 @@
 // frontend/app/lib/auth-client.ts
 
+/**
+ * Copyright 2026 Job Mathenge
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+
 import { redirect } from 'next/navigation';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL; 
